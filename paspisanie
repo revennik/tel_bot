@@ -1,0 +1,256 @@
+CREATE TABLE monday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO monday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Данилов А.Н','zoom');
+INSERT INTO monday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОДиБ','Кремер А.С','zoom');
+INSERT INTO monday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','МСиС','Деарт В.Ю','zoom');
+INSERT INTO monday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОиКПиУ','Машковцева Л.С','zoom');
+
+CREATE TABLE tuesday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO tuesday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','СКС','Семёнов А.Б','zoom');
+INSERT INTO tuesday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','zoom');
+INSERT INTO tuesday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ИТиП','----','zoom');
+INSERT INTO tuesday (tiime, subject, lecturer, room) VALUES ('17.15-18.50','СКС','Семёнов А.Б','zoom');
+
+CREATE TABLE wednesday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO wednesday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO wednesday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO wednesday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ИТиП','----','zoom');
+INSERT INTO wednesday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ИТиП','----','zoom');
+
+CREATE TABLE thursday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO thursday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ИТиП','----','А-502');
+INSERT INTO thursday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ИТиП','----','А-502');
+INSERT INTO thursday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','СКС','Семёнов А.Б','А-502');
+INSERT INTO thursday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОДиБ','----','А-402');
+
+CREATE TABLE friday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO friday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','МСиС','Корчагина А.С','Л-413');
+INSERT INTO friday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','УЛК-702');
+INSERT INTO friday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','УЛК-702');
+INSERT INTO friday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВВиТ','----','А-502');
+
+CREATE TABLE saturday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO saturday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Машковцева Л.С','zoom');
+INSERT INTO saturday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','zoom');
+INSERT INTO saturday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДиБ','----','zoom');
+INSERT INTO saturday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','zoom');
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE nmonday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO nmonday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Данилов А.Н','zoom');
+INSERT INTO nmonday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОДиБ','Кремер А.С','zoom');
+INSERT INTO nmonday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','МСиС','Деарт В.Ю','zoom');
+INSERT INTO nmonday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОиКПиУ','Машковцева Л.С','zoom');
+
+CREATE TABLE ntuesday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO ntuesday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','СКС','Семёнов А.Б','zoom');
+INSERT INTO ntuesday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОНС','Машковцева Л.С','zoom');
+INSERT INTO ntuesday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ИТиП','----','zoom');
+INSERT INTO ntuesday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','СКС','Семёнов А.Б','zoom');
+
+CREATE TABLE nwednesday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO nwednesday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ИТиП','----','zoom');
+INSERT INTO nwednesday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ИТиП','----','zoom');
+INSERT INTO nwednesday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO nwednesday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ЭДпФК','Ганиев А.А','zoom');
+
+CREATE TABLE nthursday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO nthursday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ИТиП','----','А-502');
+INSERT INTO nthursday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','СКС','Семёнов А.Б','А-502');
+INSERT INTO nthursday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДИБ','----','А-502');
+INSERT INTO nthursday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','А-402');
+
+CREATE TABLE nfriday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO nfriday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','МСиС','Корчагина А.С','Л-413');
+INSERT INTO nfriday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','УЛК-702');
+INSERT INTO nfriday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','УЛК-702');
+INSERT INTO nfriday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВВиТ','----','А-502');
+
+CREATE TABLE nsaturday
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+INSERT INTO nsaturday (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Машковцева Л.С','zoom');
+INSERT INTO nsaturday (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','zoom');
+INSERT INTO nsaturday (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДиБ','----','zoom');
+INSERT INTO nsaturday (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','zoom');
+
+
+
+
+
+
+
+
+CREATE TABLE week
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','ПОНЕДЕЛЬНИК','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Данилов А.Н','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОДиБ','Кремер А.С','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','МСиС','Деарт В.Ю','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОиКПиУ','Машковцева Л.С','zoom');
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','ВТОРНИК','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','СКС','Семёнов А.Б','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ИТиП','----','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('17.15-18.50','СКС','Семёнов А.Б','zoom');
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','СРЕДА','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ИТиП','----','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ИТиП','----','zoom');
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','ЧЕТВЕРГ','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ИТиП','----','А-502');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ИТиП','----','А-502');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','СКС','Семёнов А.Б','А-502');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОДиБ','----','А-402');
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','ПЯТНИЦА','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('9.30-11.05','МСиС','Корчагина А.С','Л-413');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','УЛК-702');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','УЛК-702');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВВиТ','----','А-502');
+
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('---','--','СУББОТА','-----');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Машковцева Л.С','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДиБ','----','zoom');
+INSERT INTO week (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','zoom');
+
+
+
+
+
+
+
+
+
+CREATE TABLE nweek
+(
+	tiime varchar(32),
+	subject text,
+	lecturer text,
+	room varchar(32)
+);
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','ПОНЕДЕЛЬНИК','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Данилов А.Н','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОДиБ','Кремер А.С','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','МСиС','Деарт В.Ю','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ОиКПиУ','Машковцева Л.С','zoom');
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','ВТОРНИК','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','СКС','Семёнов А.Б','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОНС','Машковцева Л.С','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ИТиП','----','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','СКС','Семёнов А.Б','zoom');
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','СРЕДА','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ЭДпФК','Ганиев А.А','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ИТиП','----','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ИТиП','----','zoom');
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','ЧЕТВЕРГ','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ИТиП','----','А-502');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','СКС','Семёнов А.Б','А-502');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДИБ','----','А-502');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','А-402');
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','ПЯТНИЦА','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','МСиС','Корчагина А.С','Л-413');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','УЛК-702');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОНС','Машковцева Л.С','УЛК-702');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВВиТ','----','А-502');
+
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('---','--','СУББОТА','-----');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('9.30-11.05','ССиСК','Машковцева Л.С','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('11.20-12.55','ОиКПиУ','Машковцева Л.С','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('13.10-14.45','ОДиБ','----','zoom');
+INSERT INTO nweek (tiime, subject, lecturer, room) VALUES ('15.25-17.00','ВвИТ','----','zoom');
